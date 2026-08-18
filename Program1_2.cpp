@@ -21,8 +21,10 @@ using namespace std;
 int main()
 {
     
-
-    cout << "Hi! it\'s me.\n";
+    string myName;
+    cout << "Please enter your name:";
+    cin >> myName;
+    cout << "Hi! it\'s me-"<<myName<<"\n";
     cout <<"I\'m learning to program!\n";
      
     return 0;
